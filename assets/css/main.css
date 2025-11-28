@@ -48,13 +48,16 @@ a{
 .headMenuLi li{
     margin-left: 15px;
     margin-right: 15px;
+    font-size: 20px;
 }
-.headMenuLi li:hover{
-    list-style-type: lower-alpha;
+.headMenuLi a:hover{
+    color: black;
+    transition: 0.5s;
 }
 .headMenuButtons{
     margin-top: 25px;
     margin-left: 25px;
+    font-size: 20px;
 }
 .headMenuButtons a{
     color: white; 
@@ -67,8 +70,16 @@ a{
 .blueButton{
     background-color: rgb(31, 145, 221);
 }
+.blueButton:hover{
+    background-color: rgb(14, 87, 136);
+    transition: 0.5s;
+}
 .redButton{
     background-color: rgb(231, 72, 40);
+}
+.redButton:hover{
+    background-color: rgb(138, 39, 19);
+    transition: 0.5s;
 }
 .banner{
     text-align: center;
@@ -89,16 +100,70 @@ a{
 }
 .cardList{
     width: 220px;
+    height: 180px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .sales_card{
     background-color: orange;
+    padding: 5px;
 }
 .sales_card a{
     color: white
 }
 .card_games{
-    padding-top: 20px;
-    margin-left: ;
-    margin-right: ;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card_sales_games p{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.card_franchises{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;  
+}
+.cardList2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width: 200px;  
+    margin: 12px;
+}
+.cardList2 img{
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+.cardList2 .card2_discount{
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    background: #ff3a2f;
+    color: white;
+    padding: 6px 10px;
+}
+.cardList2 .card2_franchise {
+    position: absolute;
+    bottom: -20px;
+    color: white;
+    padding: 6px 10px;
+}
+.card_events{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;  
+}
+.cardList3{
+    margin: 15px;
+    height: 200px;
 }
