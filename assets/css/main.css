@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    padding-left: 50px;
+    background-color: rgb(8, 0, 81);
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu a{
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.menu input{
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.headMenu{
+    background-color: rgb(203, 221, 221);
+    padding-left: 100px;
+    display: flex;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 80px;
+}
+.headMenuLi ul{
+    display: flex;
+    margin-top: 25px;
+}
+.headMenuLi li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.headMenuLi li:hover{
+    list-style-type: lower-alpha;
+}
+.headMenuButtons{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.headMenuButtons a{
+    color: white; 
+    padding-top: 8px;
+    padding-bottom: 8px; 
+    padding-right: 10px;
+    padding-left: 10px; 
+    border-radius: 20px;
+}
+.blueButton{
+    background-color: rgb(31, 145, 221);
+}
+.redButton{
+    background-color: rgb(231, 72, 40);
+}
+.banner{
+    text-align: center;
+}
+.cardText ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+}
+.cardText img{
+    width: 40px;    
+}
+.cardImg{
+    width: 20px;
+}
+.cardList{
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sales_card{
+    background-color: orange;
+}
+.sales_card a{
+    color: white
+}
+.card_games{
+    padding-top: 20px;
+    margin-left: ;
+    margin-right: ;
+}
