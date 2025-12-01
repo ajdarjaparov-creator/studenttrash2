@@ -257,12 +257,14 @@ footer{
     padding-bottom: 20px;
 }
 .section_low{
-    display: flex;
     margin-top: 100px;
-    justify-content: center;
+    text-align: center;
 }
 .section_low_subscription{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 .section_low_subscription input{
     width: 160px;
@@ -272,17 +274,66 @@ footer{
     background-color: red;
     color: white;
     border: none;
-    width: 110px;
+    width: 120px;
     height: 40px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 600;
 }
 .rassilka_btn_vk{
     background-color: blue;
     color: white;
     border: none;
-    width: 110px;
+    width: 120px;
     height: 40px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 600;
+}
+.section_low_else{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.game_store li{
+    color: #aeadad;
+    top: 20px;
+}
+.game_store li:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #8b8b8b;
+}
+.game_store h4{
+    text-align: center;
+}
+.profit li{
+    color: #aeadad;
+    top: 20px;
+}
+.profit li:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #8b8b8b;
+}
+.profit h4{
+    text-align: center;
+}
+.info{
+    gap: 20px;
+    width: 300px;
+}
+.info h4{
+    text-align: center;
+}
+.info p{
+    color: #8b8b8b;
+    font-size: 10px;
+}
+.contacts{
+
+}
+.iconlower{
+    width: 50px;
 }
