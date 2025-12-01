@@ -167,3 +167,18 @@ a{
     margin: 15px;
     height: 200px;
 }
+h2{
+   text-align: center; 
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+.review_list{
+    display: flex;
+    justify-content: center;
+}
