@@ -328,12 +328,45 @@ footer{
     text-align: center;
 }
 .info p{
-    color: #8b8b8b;
+    color: #aeadad;
     font-size: 10px;
-}
-.contacts{
-
 }
 .iconlower{
     width: 50px;
+}
+.contacts a{
+    color: #aeadad;
+}
+.contacts a:hover{
+    color: #8b8b8b;
+}
+.guarantee_and_info h1{
+    text-align: center;
+}
+.guarantee_list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 690px; 
+    padding-left: 390px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.guarantee_text h3{
+    font-size: 24px;
+} 
+.guarantee_text p{
+    font-size: 18px;
+}
+.partners{
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #aeadad;
+}
+.partners_partner{
+    text-align: center;
+    color: #aeadad;
 }
