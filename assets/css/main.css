@@ -182,3 +182,107 @@ h2{
     display: flex;
     justify-content: center;
 }
+.salesCard{
+    background-color: orange;
+    padding: 5px;
+}
+.salesCard a{
+    color: white;
+}
+.schetLiniya{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cardSchet{
+    background-color: white;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.cardSchet h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #aeadad;
+}
+.cardSchet p{
+    font-weight: bold;
+    color: #aeadad;
+    width: 180px;
+}
+.reviews{
+    text-align: center;
+    margin-top: 100px;
+}
+.reviews p{
+    font-weight: 700;
+}
+.review_list{
+    justify-content: center;
+    display: flex
+}
+.review_card{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(221, 221, 221);
+}
+.review_card .bgrev{
+    background-color: rgb(180, 179, 179);
+}
+.review_card img{
+    width: 100px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.bgBlackBlack img{
+    width: 350px;
+}
+.bgBlack{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(41, 41, 41);
+}
+.bgBlack p{
+    margin: 0;
+}
+.bgBlackBlack p{
+    margin: 0;
+}
+.bgBlackBlack{
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 20px;
+}
+.section_low{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.section_low_subscription{
+    text-align: center;
+}
+.section_low_subscription input{
+    width: 160px;
+    height: 35px;
+}
+.rassilka_btn_mail{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rassilka_btn_vk{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
