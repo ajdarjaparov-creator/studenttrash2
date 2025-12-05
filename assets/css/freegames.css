@@ -1,0 +1,271 @@
+.freegames{
+    background: url(https://images.steamusercontent.com/ugc/2414564628694002889/BAB00459AE469E6E0155E9D4ADC69E1BDBCFE8EA/);
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    height: 850px;
+}
+.freegames_container{
+    color: white;
+    text-align: center;
+}
+.game_soon{
+    position: absolute;
+    width: 216px;
+    height: 124px;  
+    top: 50%;
+    left: 26%;
+}
+.game_now{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.freegames_container img{
+    border: white 2px solid;
+}
+.freegames_sliding{
+    margin-top: 80px;
+}
+.game_old{
+    top: 50%;
+    left: 3%;
+    position: absolute;
+}
+.game_old_r{
+    top: 50%;
+    right: 3%;
+    position: absolute;
+}
+.game_now_r{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+.game_soon_r{
+    position: absolute;
+    width: 216px;
+    height: 124px;  
+    top: 50%;
+    right: 26%;
+}
+.freegame_p_l1{
+    position: absolute;
+    top: 66%;
+    left: 3%;
+}
+.freegame_p_l2{
+    position: absolute;
+    top: 66%;
+    left: 37%;
+}
+.freegame_p_r3{
+    position: absolute;
+    top: 66%;
+    right: 35%;
+}
+.freegame_p_r4{
+    position: absolute;
+    top: 66%;
+    right: 3%;
+}
+.freegame_span_r{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    font-size: 25px;
+}
+.freegame_span_l{
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    font-size: 25px;
+}
+.under_span_p_r{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+}
+.underspan_bluespan{
+    color: blue;
+}
+.under_span_p_l{
+    position: absolute;
+    top: 100%;
+    right: 4%;
+}
+.underspan_btn{
+    position: absolute;
+    top: 112%;
+    left: 15%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(68, 68, 222);
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+.underspan_btn:hover{
+    position: absolute;
+    top: 112%;
+    left: 15%;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(12, 12, 182);
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.percent70Winner{
+    text-align: center;
+}
+.Blockwinner{
+    width: 100%;
+    display: flex;
+}
+.percent70Winner{
+    width: 70%;
+}
+.percent30Winner{
+    width: 30%;
+}
+.borderBlockwinner{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.cardWinner img{
+    width: 100%;
+}
+.avaWinner img{
+    width: 45px;
+    border-radius: 50%;
+}
+.cardWinner .avaWinner{
+margin-top: -8px;
+}
+.cardWinner{
+    width: 270px;
+    margin-top: 20px;
+    margin-right: 15px;
+    position: relative; 
+}
+.cardWinner p{
+    margin: 0;
+}
+.avaWinner{
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.avablock{
+    margin-right: 10px;
+}
+.buyerWinner{
+    background-color: rgb(196, 41, 41);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.block70Winner{
+    display: flex;
+} 
+.block30winner{
+    background-color: #4CAE51;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.blockimg30Winner img{
+    width: 300px;
+}
+.abovebanner{
+    margin-top: 50px;
+    height: 200px;
+    width: 110%;
+    background-color: rgb(35, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.schetblock1{
+    color: rgb(210, 186, 4);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.schetblock_icon img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+.schetblock1 span{
+    color: rgb(210, 186, 4);
+    font-weight: 700;
+    font-size: 35px;
+}
+.schetblock2{
+    color: rgb(63, 164, 90);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.schetblock2 span{
+    color: rgb(63, 164, 90);
+    font-weight: 700;
+    font-size: 35px;
+}
+.schetblock3{
+    color: rgb(245, 72, 72);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.schetblock3 span{
+    color: rgb(245, 72, 72);
+    font-weight: 700;
+    font-size: 35px;
+}
+.schetblock4{
+    color: rgb(4, 165, 210);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.schetblock4 span{
+    color: rgb(4, 165, 210);
+    font-weight: 700;
+    font-size: 35px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
